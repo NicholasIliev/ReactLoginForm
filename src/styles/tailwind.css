@@ -1,0 +1,64 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Login Form Styling Begins */
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.login-container {
+  @apply flex justify-center items-center min-h-screen;
+}
+
+.login-form {
+  @apply w-80 p-4 border border-solid border-gray-300 rounded-lg bg-white shadow-md mb-4;
+}
+
+.login-header {
+  @apply text-center text-xl font-bold mb-5 text-gray-700;
+}
+
+.input-group {
+  @apply mb-6;
+}
+
+.input-group label {
+  @apply block text-sm font-bold mb-1 text-gray-600;
+}
+
+.input-group input {
+  @apply w-full p-2 border border-solid border-gray-300 rounded;
+}
+
+.submit-button {
+  @apply w-full p-3 bg-blue-500 text-white rounded cursor-pointer transition duration-300 ease-in-out;
+}
+
+.submit-button:hover {
+  @apply bg-blue-600;
+}
+
+.error-message {
+  @apply text-red-500 mb-4;
+}
+
+.additional-links {
+  @apply flex justify-between items-center mb-6;
+}
+
+.link {
+  @apply text-blue-500 cursor-pointer transition duration-300 ease-in-out;
+}
+
+.link:hover {
+  @apply text-blue-700;
+}
+
+.separator {
+  @apply mx-2 text-gray-500;
+}
+
+/* Login Form Styling Ends */
