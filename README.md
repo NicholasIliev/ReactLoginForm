@@ -31,7 +31,7 @@ Welcome to React Login Form, a simple mobile login form built with React, TypeSc
 
 ### Prerequisites
 
-Make sure you have Node.js and npminstalled on your machine.
+Make sure you have Node.js and npm installed on your machine.
 
 - Node.js: [Download](https://nodejs.org/)
 - npm: [Download](https://www.npmjs.com/get-npm)
