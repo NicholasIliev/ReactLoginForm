@@ -56,7 +56,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 ### Usage
 
-1. Clone the repository:
+1. Start the app:
 
    ```bash
    npm start
