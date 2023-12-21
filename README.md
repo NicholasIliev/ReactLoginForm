@@ -48,7 +48,7 @@ Make sure you have Node.js and npm installed on your machine.
    ```bash
    cd ReactLoginForm
    ```
-2. Navigate to the project directory:
+2. Install required dependencies:
 
    ```bash
    npm install
